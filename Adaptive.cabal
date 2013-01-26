@@ -16,7 +16,7 @@ Cabal-version:       >= 1.6
 Category:            Control
 
 Library
-  Build-Depends:       base
+  Build-Depends:       base >= 4.5 && < 5
   Exposed-modules:     Control.Monad.Adaptive, Control.Monad.Adaptive.Ref,Control.Monad.Adaptive.PriorityQueue, Control.Monad.Adaptive.OrderedList, Control.Monad.Adaptive.CircularList, Control.Monad.Adaptive.MonadUtil
 
 --category:            
