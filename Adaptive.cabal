@@ -13,6 +13,7 @@ Maintainer:          Magnus Carlsson <magnus@galois.com>
 data-files:	     ChangeLog, README
 build-type:	     Simple
 Cabal-version:       >= 1.6
+Category:            Control
 
 Library
   Build-Depends:       base
