@@ -10,7 +10,7 @@ License:             BSD3
 License-file:        LICENSE
 Author:              Magnus Carlsson
 Maintainer:          Magnus Carlsson <magnus@galois.com>
-Build-Depends:       base, haskell98
+Build-Depends:       base
 Exposed-modules:     Control.Monad.Adaptive, Control.Monad.Adaptive.Ref,Control.Monad.Adaptive.PriorityQueue, Control.Monad.Adaptive.OrderedList, Control.Monad.Adaptive.CircularList, Control.Monad.Adaptive.MonadUtil
 data-files:	     ChangeLog, README
 build-type:	     Simple

@@ -22,7 +22,7 @@ module Control.Monad.Adaptive
  ) where
 
 import Prelude 
-import Monad(ap,unless)
+import Control.Monad(ap,unless)
 import Control.Monad.Adaptive.MonadUtil
 import Control.Monad.Adaptive.Ref
 import qualified Control.Monad.Adaptive.OrderedList as OL

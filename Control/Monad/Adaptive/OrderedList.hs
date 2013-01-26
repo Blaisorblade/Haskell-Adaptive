@@ -27,7 +27,7 @@ module Control.Monad.Adaptive.OrderedList(
   record
   ) where
 
-import Monad(ap,unless)
+import Control.Monad(ap,unless)
 import Control.Monad.Adaptive.MonadUtil
 import Control.Monad.Adaptive.Ref
 import Control.Monad.Adaptive.CircularList hiding (delete,insert,next,update)

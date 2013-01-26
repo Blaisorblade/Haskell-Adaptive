@@ -12,8 +12,8 @@ module Control.Monad.Adaptive.PriorityQueue(
 
 import Prelude hiding(min)
 
-import qualified List(insert)
-import Monad(ap)
+import qualified Data.List(insert)
+import Control.Monad(ap)
 
 -- Export:
 empty   :: PriorityQueue a
@@ -28,7 +28,7 @@ newtype PriorityQueue a = PQ [a]
 
 empty = PQ []
 
-insert a (PQ l) = PQ (List.insert a l)
+insert a (PQ l) = PQ (Data.List.insert a l)
 
 
 insertM cmp a (PQ l) = return PQ `ap` ins l

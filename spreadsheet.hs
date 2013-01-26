@@ -10,9 +10,9 @@
 import Control.Monad.Adaptive
 import Data.Char
 import Control.Monad.Adaptive.Ref
-import Monad(ap,when)
+import Control.Monad(ap,when)
 import Data.IORef(IORef)
-import System
+import System.Exit
 
 type InIO m a = m IO IORef a
 type IOMod a = InIO Modifiable a
