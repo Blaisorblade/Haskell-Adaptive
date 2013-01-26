@@ -1,3 +1,11 @@
+Adaptive version 0.23 2013-01-26
+================================
+
+This is a minor update to Adaptive version 0.22 to make it work with
+recent versions of GHC. Any problems with the result is my fault.
+
+Paolo G. Giarrusso, p.giarrusso@gmail.com
+
 Adaptive version 0.22 2008-07-14
 ================================
 
