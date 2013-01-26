@@ -1,3 +1,8 @@
+2013-01-26    <p.giarrusso@gmail.com>
+
+	* Version 0.23, adapted for ghc 7.4.
+	* Updated Cabal file with extra metadata.
+
 2008-07-14    <pj@csee.ltu.se>
 
 	* Version 0.22, adapted for Hugs 20060908 and ghc 6.8.2.

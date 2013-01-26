@@ -1,5 +1,5 @@
 Name:                Adaptive
-Version:             0.22
+Version:             0.23
 Synopsis:            Library for incremental computing.
 Description:         This is a Haskell (plus some extensions) implementation 
 		     of a library for incremental computing.  It closely 
