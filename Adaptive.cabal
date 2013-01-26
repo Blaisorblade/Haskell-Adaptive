@@ -10,11 +10,18 @@ License:             BSD3
 License-file:        LICENSE
 Author:              Magnus Carlsson
 Maintainer:          Magnus Carlsson <magnus@galois.com>
-Build-Depends:       base
-Exposed-modules:     Control.Monad.Adaptive, Control.Monad.Adaptive.Ref,Control.Monad.Adaptive.PriorityQueue, Control.Monad.Adaptive.OrderedList, Control.Monad.Adaptive.CircularList, Control.Monad.Adaptive.MonadUtil
 data-files:	     ChangeLog, README
 build-type:	     Simple
+Cabal-version:       >= 1.6
 
-Executable:          spreadsheet
-Main-is:             spreadsheet.hs
+Library
+  Build-Depends:       base
+  Exposed-modules:     Control.Monad.Adaptive, Control.Monad.Adaptive.Ref,Control.Monad.Adaptive.PriorityQueue, Control.Monad.Adaptive.OrderedList, Control.Monad.Adaptive.CircularList, Control.Monad.Adaptive.MonadUtil
 
+--category:            
+Executable spreadsheet
+  Main-is:             spreadsheet.hs
+
+source-repository head
+  type: git
+  location: git://github.com/Blaisorblade/Haskell-Adaptive.git
