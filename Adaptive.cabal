@@ -1,4 +1,4 @@
-Name:                Adaptive
+Name:                Adaptive-Blaisorblade
 Version:             0.23
 Synopsis:            Library for incremental computing.
 Description:         This is a Haskell (plus some extensions) implementation 
@@ -6,10 +6,13 @@ Description:         This is a Haskell (plus some extensions) implementation
 		     follows the implementation in the nice POPL 2002 paper 
 		     "Adaptive Functional Programming", by Umut Acar, 
 		     Guy Blelloch and Bob Harper.
+		     This is a small fork of the original library named
+		     "Adaptive", with the same interface but small adaptations
+		     to GHC 7.4.
 License:             BSD3
 License-file:        LICENSE
 Author:              Magnus Carlsson
-Maintainer:          Magnus Carlsson <magnus@galois.com>
+Maintainer:          none
 data-files:	     ChangeLog, README
 build-type:	     Simple
 Cabal-version:       >= 1.6
