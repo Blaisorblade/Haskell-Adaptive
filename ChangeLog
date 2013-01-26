@@ -1,0 +1,12 @@
+2008-07-14    <pj@csee.ltu.se>
+
+	* Version 0.22, adapted for Hugs 20060908 and ghc 6.8.2.
+
+2005-07-09    <magnus@cse.ogi.edu>
+
+	* Version 0.21, adapted for Hugs 20050308 and ghc 6.4, by
+	Andrew Pimlott <andrew@pimlott.net>.
+
+2002-03-18    <magnus@cse.ogi.edu>
+
+	* Version 0.2, public release.

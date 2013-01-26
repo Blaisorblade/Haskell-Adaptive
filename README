@@ -1,0 +1,46 @@
+Adaptive version 0.22 2008-07-14
+================================
+
+This is a minor update to Adaptive version 0.21 to make it work with
+recent versions of GHC and Hugs. Adaptive is now cabalized, and any
+problems with the packaging is my fault, not Magnus.
+
+Peter A. Jonsson, pj@csee.ltu.se
+
+
+Adaptive version 0.21  2005-07-09
+=================================
+
+This is a Haskell (plus some extensions) implementation of a library
+for incremental computing.  It closely follows the implementation in
+the nice POPL 2002 paper "Adaptive Functional Programming", by Umut
+Acar, Guy Blelloch and Bob Harper.  As of writing, their paper can be
+found at
+
+      http://ttic.uchicago.edu/~umut/papers/popl02.html
+
+However, this Haskell library provides a monadic interface, which
+doesn't need the "write" operation or the "destination" type.  In
+addition, the monadic types enforce correct usage, which means that a
+modifiable variable must be defined before it can be used.  This is
+achieved within Haskell's type system plus some popular extensions
+(multi-parameter classes and functional dependencies).
+
+The library is parameterised over any monad that has references (such
+as IO and ST).  This means that it should be possible to put it on top
+of e.g. many GUI monads too.
+
+There is a small demo program of a classical incremental computation
+problem: a spreadsheet.  Try it by typing
+
+   runhugs -98 spreadsheet.hs
+
+and type, say 
+
+  c0 <Return> Cell c1 <Return> c1 <Return> Const 42 <Return>.
+
+This has been tested with the Hugs September 2006 version.
+
+Feedback is welcome!
+
+Magnus Carlsson, magnus@galois.com
